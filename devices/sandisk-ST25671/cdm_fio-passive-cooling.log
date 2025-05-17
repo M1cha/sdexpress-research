@@ -1,0 +1,80 @@
+Configuration:
+  Size = 256m
+  Loops = 5
+  Write Only Zeroes = 0
+
+Results:
+
+Sequential Read: 834MB/s IOPS=3
+Sequential Write: 648MB/s IOPS=2
+
+512KB Read: 557MB/s IOPS=1114
+512KB Write: 520MB/s IOPS=1040
+
+Sequential Q32T1 Read: 836MB/s IOPS=104
+Sequential Q32T1 Write: 645MB/s IOPS=80
+
+4KB Read: 13MB/s IOPS=3558
+4KB Write: 201MB/s IOPS=51570
+
+4KB Q32T1 Read: 413MB/s IOPS=105839
+4KB Q32T1 Write: 657MB/s IOPS=168299
+
+4KB Q8T8 Read: 422MB/s IOPS=108165
+4KB Q8T8 Write: 662MB/s IOPS=169550
+
+================================================================================
+
+Configuration:
+  Size = 1024m
+  Loops = 5
+  Write Only Zeroes = 0
+
+Results:
+
+Sequential Read: 803MB/s IOPS=0
+Sequential Write: 650MB/s IOPS=0
+
+512KB Read: 559MB/s IOPS=1118
+512KB Write: 517MB/s IOPS=1035
+
+Sequential Q32T1 Read: 831MB/s IOPS=25
+Sequential Q32T1 Write: 653MB/s IOPS=20
+
+4KB Read: 13MB/s IOPS=3508
+4KB Write: 201MB/s IOPS=51613
+
+4KB Q32T1 Read: 409MB/s IOPS=104933
+4KB Q32T1 Write: 598MB/s IOPS=153282
+
+4KB Q8T8 Read: 423MB/s IOPS=108394
+4KB Q8T8 Write: 302MB/s IOPS=77512
+
+================================================================================
+
+With active cooling
+
+Configuration:
+  Size = 1024m
+  Loops = 5
+  Write Only Zeroes = 0
+
+Results:
+
+Sequential Read: 817MB/s IOPS=0
+Sequential Write: 649MB/s IOPS=0
+
+512KB Read: 550MB/s IOPS=1100
+512KB Write: 522MB/s IOPS=1045
+
+Sequential Q32T1 Read: 836MB/s IOPS=26
+Sequential Q32T1 Write: 653MB/s IOPS=20
+
+4KB Read: 13MB/s IOPS=3366
+4KB Write: 199MB/s IOPS=50990
+
+4KB Q32T1 Read: 413MB/s IOPS=105780
+4KB Q32T1 Write: 599MB/s IOPS=153444
+
+4KB Q8T8 Read: 423MB/s IOPS=108317
+4KB Q8T8 Write: 271MB/s IOPS=69455
