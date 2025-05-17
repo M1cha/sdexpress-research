@@ -1,0 +1,290 @@
+root@localhost-live:/home/liveuser# seq 10 | xargs -I{} ./cdm_fio.sh /mnt/
+Testing in /mnt/
+Configuration:
+  Size = 1024m
+  Loops = 5
+  Write Only Zeroes = 0
+Running Benchmark, please wait...
+
+Jobs: 8 (f=8): [_(19),w(8)][100.0%][w=438MiB/s][w=112k IOPS][eta 00m:00s]
+Results:
+
+Sequential Read: 775MB/s IOPS=0
+Sequential Write: 610MB/s IOPS=0
+
+512KB Read: 516MB/s IOPS=1033
+512KB Write: 444MB/s IOPS=889
+
+Sequential Q32T1 Read: 777MB/s IOPS=24
+Sequential Q32T1 Write: 619MB/s IOPS=19
+
+4KB Read: 36MB/s IOPS=9395
+4KB Write: 193MB/s IOPS=49582
+
+4KB Q32T1 Read: 454MB/s IOPS=116446
+4KB Q32T1 Write: 478MB/s IOPS=122623
+
+4KB Q8T8 Read: 413MB/s IOPS=105919
+4KB Q8T8 Write: 389MB/s IOPS=99648
+
+
+Testing in /mnt/
+Configuration:
+  Size = 1024m
+  Loops = 5
+  Write Only Zeroes = 0
+Running Benchmark, please wait...
+
+Jobs: 8 (f=8): [_(19),w(8)][100.0%][w=255MiB/s][w=65.3k IOPS][eta 00m:00s]
+Results:
+
+Sequential Read: 766MB/s IOPS=0
+Sequential Write: 313MB/s IOPS=0
+
+512KB Read: 511MB/s IOPS=1023
+512KB Write: 260MB/s IOPS=521
+
+Sequential Q32T1 Read: 761MB/s IOPS=23
+Sequential Q32T1 Write: 310MB/s IOPS=9
+
+4KB Read: 11MB/s IOPS=2828
+4KB Write: 170MB/s IOPS=43737
+
+4KB Q32T1 Read: 292MB/s IOPS=74988
+4KB Q32T1 Write: 255MB/s IOPS=65375
+
+4KB Q8T8 Read: 212MB/s IOPS=54424
+4KB Q8T8 Write: 340MB/s IOPS=87076
+
+
+Testing in /mnt/
+Configuration:
+  Size = 1024m
+  Loops = 5
+  Write Only Zeroes = 0
+Running Benchmark, please wait...
+
+Jobs: 2 (f=0): [_(23),f(2),E(1),_(1)][100.0%][w=481MiB/s][w=123k IOPS][eta 00m:00s]
+Results:
+
+Sequential Read: 760MB/s IOPS=0
+Sequential Write: 289MB/s IOPS=0
+
+512KB Read: 520MB/s IOPS=1040
+512KB Write: 249MB/s IOPS=498
+
+Sequential Q32T1 Read: 763MB/s IOPS=23
+Sequential Q32T1 Write: 290MB/s IOPS=9
+
+4KB Read: 12MB/s IOPS=3072
+4KB Write: 169MB/s IOPS=43398
+
+4KB Q32T1 Read: 265MB/s IOPS=67905
+4KB Q32T1 Write: 244MB/s IOPS=62531
+
+4KB Q8T8 Read: 205MB/s IOPS=52563
+4KB Q8T8 Write: 400MB/s IOPS=102404
+
+
+Testing in /mnt/
+Configuration:
+  Size = 1024m
+  Loops = 5
+  Write Only Zeroes = 0
+Running Benchmark, please wait...
+
+Jobs: 8 (f=8): [_(19),w(8)][100.0%][w=487MiB/s][w=125k IOPS][eta 00m:00s]
+Results:
+
+Sequential Read: 747MB/s IOPS=0
+Sequential Write: 307MB/s IOPS=0
+
+512KB Read: 507MB/s IOPS=1014
+512KB Write: 264MB/s IOPS=528
+
+Sequential Q32T1 Read: 748MB/s IOPS=23
+Sequential Q32T1 Write: 285MB/s IOPS=8
+
+4KB Read: 11MB/s IOPS=2929
+4KB Write: 172MB/s IOPS=44054
+
+4KB Q32T1 Read: 285MB/s IOPS=73020
+4KB Q32T1 Write: 252MB/s IOPS=64656
+
+4KB Q8T8 Read: 199MB/s IOPS=51140
+4KB Q8T8 Write: 425MB/s IOPS=109002
+
+
+Testing in /mnt/
+Configuration:
+  Size = 1024m
+  Loops = 5
+  Write Only Zeroes = 0
+Running Benchmark, please wait...
+
+Jobs: 8 (f=8): [_(19),w(8)][100.0%][w=144MiB/s][w=37.0k IOPS][eta 00m:00s]
+Results:
+
+Sequential Read: 742MB/s IOPS=0
+Sequential Write: 322MB/s IOPS=0
+
+512KB Read: 507MB/s IOPS=1015
+512KB Write: 280MB/s IOPS=561
+
+Sequential Q32T1 Read: 756MB/s IOPS=23
+Sequential Q32T1 Write: 311MB/s IOPS=9
+
+4KB Read: 11MB/s IOPS=2854
+4KB Write: 173MB/s IOPS=44476
+
+4KB Q32T1 Read: 271MB/s IOPS=69630
+4KB Q32T1 Write: 275MB/s IOPS=70491
+
+4KB Q8T8 Read: 260MB/s IOPS=66627
+4KB Q8T8 Write: 207MB/s IOPS=53012
+
+
+Testing in /mnt/
+Configuration:
+  Size = 1024m
+  Loops = 5
+  Write Only Zeroes = 0
+Running Benchmark, please wait...
+
+Jobs: 8 (f=8): [_(19),w(8)][100.0%][w=235MiB/s][w=60.1k IOPS][eta 00m:00s]
+Results:
+
+Sequential Read: 508MB/s IOPS=0
+Sequential Write: 200MB/s IOPS=0
+
+512KB Read: 517MB/s IOPS=1035
+512KB Write: 177MB/s IOPS=354
+
+Sequential Q32T1 Read: 499MB/s IOPS=15
+Sequential Q32T1 Write: 184MB/s IOPS=5
+
+4KB Read: 11MB/s IOPS=2917
+4KB Write: 158MB/s IOPS=40667
+
+4KB Q32T1 Read: 229MB/s IOPS=58784
+4KB Q32T1 Write: 175MB/s IOPS=44919
+
+4KB Q8T8 Read: 164MB/s IOPS=42028
+4KB Q8T8 Write: 206MB/s IOPS=52753
+
+
+Testing in /mnt/
+Configuration:
+  Size = 1024m
+  Loops = 5
+  Write Only Zeroes = 0
+Running Benchmark, please wait...
+
+Jobs: 8 (f=8): [_(19),w(8)][99.9%][w=485MiB/s][w=124k IOPS][eta 00m:01s]
+Results:
+
+Sequential Read: 562MB/s IOPS=0
+Sequential Write: 229MB/s IOPS=0
+
+512KB Read: 510MB/s IOPS=1020
+512KB Write: 212MB/s IOPS=424
+
+Sequential Q32T1 Read: 560MB/s IOPS=17
+Sequential Q32T1 Write: 234MB/s IOPS=7
+
+4KB Read: 11MB/s IOPS=2955
+4KB Write: 164MB/s IOPS=42160
+
+4KB Q32T1 Read: 232MB/s IOPS=59518
+4KB Q32T1 Write: 225MB/s IOPS=57649
+
+4KB Q8T8 Read: 174MB/s IOPS=44601
+4KB Q8T8 Write: 387MB/s IOPS=99120
+
+
+Testing in /mnt/
+Configuration:
+  Size = 1024m
+  Loops = 5
+  Write Only Zeroes = 0
+Running Benchmark, please wait...
+
+Jobs: 8 (f=8): [_(19),w(8)][100.0%][w=144MiB/s][w=36.8k IOPS][eta 00m:00s]
+Results:
+
+Sequential Read: 692MB/s IOPS=0
+Sequential Write: 420MB/s IOPS=0
+
+512KB Read: 566MB/s IOPS=1132
+512KB Write: 371MB/s IOPS=742
+
+Sequential Q32T1 Read: 526MB/s IOPS=16
+Sequential Q32T1 Write: 461MB/s IOPS=14
+
+4KB Read: 36MB/s IOPS=9360
+4KB Write: 186MB/s IOPS=47773
+
+4KB Q32T1 Read: 313MB/s IOPS=80249
+4KB Q32T1 Write: 369MB/s IOPS=94650
+
+4KB Q8T8 Read: 273MB/s IOPS=69910
+4KB Q8T8 Write: 219MB/s IOPS=56296
+
+
+Testing in /mnt/
+Configuration:
+  Size = 1024m
+  Loops = 5
+  Write Only Zeroes = 0
+Running Benchmark, please wait...
+
+Jobs: 8 (f=8): [_(19),w(8)][100.0%][w=428MiB/s][w=110k IOPS][eta 00m:00s]
+Results:
+
+Sequential Read: 451MB/s IOPS=0
+Sequential Write: 207MB/s IOPS=0
+
+512KB Read: 532MB/s IOPS=1064
+512KB Write: 170MB/s IOPS=341
+
+Sequential Q32T1 Read: 450MB/s IOPS=14
+Sequential Q32T1 Write: 207MB/s IOPS=6
+
+4KB Read: 10MB/s IOPS=2666
+4KB Write: 162MB/s IOPS=41667
+
+4KB Q32T1 Read: 227MB/s IOPS=58274
+4KB Q32T1 Write: 173MB/s IOPS=44395
+
+4KB Q8T8 Read: 156MB/s IOPS=40035
+4KB Q8T8 Write: 262MB/s IOPS=67286
+
+
+Testing in /mnt/
+Configuration:
+  Size = 1024m
+  Loops = 5
+  Write Only Zeroes = 0
+Running Benchmark, please wait...
+
+Jobs: 8 (f=8): [_(19),w(8)][100.0%][w=210MiB/s][w=53.8k IOPS][eta 00m:00s]
+Results:
+
+Sequential Read: 465MB/s IOPS=0
+Sequential Write: 193MB/s IOPS=0
+
+512KB Read: 516MB/s IOPS=1033
+512KB Write: 188MB/s IOPS=377
+
+Sequential Q32T1 Read: 491MB/s IOPS=15
+Sequential Q32T1 Write: 217MB/s IOPS=6
+
+4KB Read: 11MB/s IOPS=2893
+4KB Write: 165MB/s IOPS=42355
+
+4KB Q32T1 Read: 250MB/s IOPS=64003
+4KB Q32T1 Write: 235MB/s IOPS=60160
+
+4KB Q8T8 Read: 171MB/s IOPS=43788
+4KB Q8T8 Write: 314MB/s IOPS=80434
+

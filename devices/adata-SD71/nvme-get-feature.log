@@ -1,0 +1,221 @@
+get-feature:0x01 (Arbitration), Current value:0x00000006
+	High Priority Weight   (HPW): 1
+	Medium Priority Weight (MPW): 1
+	Low Priority Weight    (LPW): 1
+	Arbitration Burst       (AB): 64
+get-feature:0x02 (Power Management), Current value:0x00000004
+	Workload Hint (WH): 0 - No Workload
+	Power State   (PS): 4
+get-feature:0x04 (Temperature Threshold), Current value:0x00000164
+	Temperature Threshold Hysteresis(TMPTHH): -459 °F (0 K)
+	Threshold Type Select         (THSEL): 0 - Over Temperature Threshold
+	Threshold Temperature Select (TMPSEL): 0 - Composite Temperature
+	Temperature Threshold         (TMPTH): 181 °F (356 K)
+get-feature:0x07 (Number of Queues), Current value:0x00070007
+	Number of IO Completion Queues Allocated (NCQA): 8
+	Number of IO Submission Queues Allocated (NSQA): 8
+get-feature:0x08 (Interrupt Coalescing), Current value:00000000
+	Aggregation Time     (TIME): 0 usec
+	Aggregation Threshold (THR): 1
+get-feature:0x09 (Interrupt Vector Configuration), Current value:0x00010000
+	Coalescing Disable (CD): True
+	Interrupt Vector   (IV): 0
+get-feature:0x0a (Write Atomicity Normal), Current value:00000000
+	Disable Normal (DN): False
+get-feature:0x0b (Async Event Configuration), Current value:0x00000200
+	Discovery Log Page Change Notices                         : Do not send async event
+	Host Discovery Log Page Change Notification               : Do not send async event
+	AVE Discovery Log Page Change Notification                : Do not send async event
+	Pull Model DDC Request Log Page Change Notification       : Do not send async event
+	Zone Descriptor Changed Notices                           : Do not send async event
+	Allocated Namespace Attribute Notices                     : Do not send async event
+	Reachability Group                                        : Do not send async event
+	Reachability Association                                  : Do not send async event
+	Temperature Threshold Hysteresis Recovery                 : Do not send async event
+	Normal NVM Subsystem Shutdown                             : Do not send async event
+	Endurance Group Event Aggregate Log Change Notices        : Do not send async event
+	LBA Status Information Notices                            : Do not send async event
+	Predictable Latency Event Aggregate Log Change Notices    : Do not send async event
+	Asymmetric Namespace Access Change Notices                : Do not send async event
+	Telemetry Log Notices                                     : Do not send async event
+	Firmware Activation Notices                               : Send async event
+	Namespace Attribute Notices                               : Do not send async event
+	SMART / Health Critical Warnings                          : Do not send async event
+get-feature:0x0c (Autonomous Power State Transition), Current value:0x00000001
+	Autonomous Power State Transition Enable (APSTE): Enabled
+	Auto PST Entries	.................
+	Entry[ 0]
+	.................
+	Idle Time Prior to Transition (ITPT): 100 ms
+	Idle Transition Power State   (ITPS): 4
+	.................
+	Entry[ 1]
+	.................
+	Idle Time Prior to Transition (ITPT): 100 ms
+	Idle Transition Power State   (ITPS): 4
+	.................
+	Entry[ 2]
+	.................
+	Idle Time Prior to Transition (ITPT): 100 ms
+	Idle Transition Power State   (ITPS): 4
+	.................
+	Entry[ 3]
+	.................
+	Idle Time Prior to Transition (ITPT): 100 ms
+	Idle Transition Power State   (ITPS): 4
+	.................
+	Entry[ 4]
+	.................
+	Idle Time Prior to Transition (ITPT): 0 ms
+	Idle Transition Power State   (ITPS): 0
+	.................
+	Entry[ 5]
+	.................
+	Idle Time Prior to Transition (ITPT): 0 ms
+	Idle Transition Power State   (ITPS): 0
+	.................
+	Entry[ 6]
+	.................
+	Idle Time Prior to Transition (ITPT): 0 ms
+	Idle Transition Power State   (ITPS): 0
+	.................
+	Entry[ 7]
+	.................
+	Idle Time Prior to Transition (ITPT): 0 ms
+	Idle Transition Power State   (ITPS): 0
+	.................
+	Entry[ 8]
+	.................
+	Idle Time Prior to Transition (ITPT): 0 ms
+	Idle Transition Power State   (ITPS): 0
+	.................
+	Entry[ 9]
+	.................
+	Idle Time Prior to Transition (ITPT): 0 ms
+	Idle Transition Power State   (ITPS): 0
+	.................
+	Entry[10]
+	.................
+	Idle Time Prior to Transition (ITPT): 0 ms
+	Idle Transition Power State   (ITPS): 0
+	.................
+	Entry[11]
+	.................
+	Idle Time Prior to Transition (ITPT): 0 ms
+	Idle Transition Power State   (ITPS): 0
+	.................
+	Entry[12]
+	.................
+	Idle Time Prior to Transition (ITPT): 0 ms
+	Idle Transition Power State   (ITPS): 0
+	.................
+	Entry[13]
+	.................
+	Idle Time Prior to Transition (ITPT): 0 ms
+	Idle Transition Power State   (ITPS): 0
+	.................
+	Entry[14]
+	.................
+	Idle Time Prior to Transition (ITPT): 0 ms
+	Idle Transition Power State   (ITPS): 0
+	.................
+	Entry[15]
+	.................
+	Idle Time Prior to Transition (ITPT): 0 ms
+	Idle Transition Power State   (ITPS): 0
+	.................
+	Entry[16]
+	.................
+	Idle Time Prior to Transition (ITPT): 0 ms
+	Idle Transition Power State   (ITPS): 0
+	.................
+	Entry[17]
+	.................
+	Idle Time Prior to Transition (ITPT): 0 ms
+	Idle Transition Power State   (ITPS): 0
+	.................
+	Entry[18]
+	.................
+	Idle Time Prior to Transition (ITPT): 0 ms
+	Idle Transition Power State   (ITPS): 0
+	.................
+	Entry[19]
+	.................
+	Idle Time Prior to Transition (ITPT): 0 ms
+	Idle Transition Power State   (ITPS): 0
+	.................
+	Entry[20]
+	.................
+	Idle Time Prior to Transition (ITPT): 0 ms
+	Idle Transition Power State   (ITPS): 0
+	.................
+	Entry[21]
+	.................
+	Idle Time Prior to Transition (ITPT): 0 ms
+	Idle Transition Power State   (ITPS): 0
+	.................
+	Entry[22]
+	.................
+	Idle Time Prior to Transition (ITPT): 0 ms
+	Idle Transition Power State   (ITPS): 0
+	.................
+	Entry[23]
+	.................
+	Idle Time Prior to Transition (ITPT): 0 ms
+	Idle Transition Power State   (ITPS): 0
+	.................
+	Entry[24]
+	.................
+	Idle Time Prior to Transition (ITPT): 0 ms
+	Idle Transition Power State   (ITPS): 0
+	.................
+	Entry[25]
+	.................
+	Idle Time Prior to Transition (ITPT): 0 ms
+	Idle Transition Power State   (ITPS): 0
+	.................
+	Entry[26]
+	.................
+	Idle Time Prior to Transition (ITPT): 0 ms
+	Idle Transition Power State   (ITPS): 0
+	.................
+	Entry[27]
+	.................
+	Idle Time Prior to Transition (ITPT): 0 ms
+	Idle Transition Power State   (ITPS): 0
+	.................
+	Entry[28]
+	.................
+	Idle Time Prior to Transition (ITPT): 0 ms
+	Idle Transition Power State   (ITPS): 0
+	.................
+	Entry[29]
+	.................
+	Idle Time Prior to Transition (ITPT): 0 ms
+	Idle Transition Power State   (ITPS): 0
+	.................
+	Entry[30]
+	.................
+	Idle Time Prior to Transition (ITPT): 0 ms
+	Idle Transition Power State   (ITPS): 0
+	.................
+	Entry[31]
+	.................
+	Idle Time Prior to Transition (ITPT): 0 ms
+	Idle Transition Power State   (ITPS): 0
+	.................
+get-feature:0x0d (Host Memory Buffer), Current value:0x00000001
+	Enable Host Memory (EHM): Enabled
+	Host Memory Non-operational Access Restriction Enable (HMNARE): False
+	Host Memory Non-operational Access Restricted (HMNAR): False
+	Host Memory Descriptor List Entry Count (HMDLEC): 16
+	Host Memory Descriptor List Address     (HMDLAU): 0x1
+	Host Memory Descriptor List Address     (HMDLAL): 0x166d0000
+	Host Memory Buffer Size                  (HSIZE): 16384
+get-feature:0x10 (Host Controlled Thermal Management), Current value:0x01620166
+	Thermal Management Temperature 1 (TMT1) : 354 K (177 °F)
+	Thermal Management Temperature 2 (TMT2) : 358 K (185 °F)
+get-feature:0x11 (Non-Operational Power State Config), Current value:00000000
+	Non-Operational Power State Permissive Mode Enable (NOPPME): False
+get-feature:0x80 (Software Progress), Current value:00000000
+	Pre-boot Software Load Count (PBSLC): 0
